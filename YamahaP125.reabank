@@ -1,0 +1,79 @@
+// --------------------------------------------------------------------
+// Filename: YamahaP125.reabank
+// Device: Yahama P-125
+// Last Revised: 8/1/2021
+//
+// This file will load into Reabank all the appropriate patches
+// for a Yamaha P-125 keyboard.
+//
+// Author: Christopher L Duston / Boston, MA
+// Website: http://levitopher.wordpress.com
+// GIT: https://github.com/cduston44
+//
+// The most updated version of this script can be found at:
+//     https://github.com/cduston44/YamahaP125-Reabank
+// All rights reserved.
+//
+// Redistribution and use of this file, with or without modification, is
+// permitted provided that the following conditions are met:
+//
+// 1. Redistributions of this script must retain the above copyright
+//   notice, this list of conditions and the following disclaimer.
+//
+// THIS SOFTWARE IS PROVIDED BY THE AUTHOR "AS IS" AND ANY EXPRESS OR IMPLIED
+// WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+// MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO
+// EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+// SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+// PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+// OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+// WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+// OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+// ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+//
+// The Yamaha P-125 is a very nice-sounding keyboard with a few
+// Nice-sounding sounds.
+//
+//--------------------------------------------------------------------
+
+
+//P125 LSB 0
+Bank 108 0 First Bank (LSB 0)
+0	1	Grand Piano
+1	2	Bright Grand	
+4	5	Stage Electric Grand
+5	6	DX Electric Grand
+6	7	Harpsichord 8'
+7	8	Eletric Clavichord	
+11	12	Vibraphone	
+16	17	Jazz Organ		
+18	19	Rock Organ
+19	20	Organ Tutti	
+32	33	Acoustic Bass
+33	34	Electric Bass	
+35	36	Fretless Bass	
+48	49	Strings
+49	50	Slow Strings	
+52	53	Choir	
+88	89	Synth Piano	
+89	90	Synth Pad
+	
+
+
+
+//P125 LSB 1
+Bank 108 1 Second Bank (LSB 1)	
+4	5	Vintage Electric Piano
+6	7	Harpsichord 8'+4'
+19	20	Organ Principal
+32	33	Bass & Cymbal
+
+
+//P125 LSB 2
+Bank 108 2 Third Bank (LSB 2)
+1    2	 Live Grand
+
+
+//P125 LSB 3
+Bank 108 3 Forth Bank (LSB 3)
+0    1	 Ballad Grand
