@@ -1,0 +1,3 @@
+A very basic README file for the use of this configuration file, since I'm dumb and don't use this often!
+
+Get your midi file into Reaper. Then, add an FX chain, selecting ReaControlMIDI. Set Midi channel to "all", and under "load file", navigate to this .Reabank. That should polulate "Bank" and "Program" correctly. And it should just work now!
